@@ -64,7 +64,7 @@
 }
 
 .jumbotron {
-    background: url("eazyfarm/img/about-images/fruit.jpg");
+    background: url("fruit.jpg");
     background-repeat: no-repeat;
     background-position: fill;
     height: 100vh;
