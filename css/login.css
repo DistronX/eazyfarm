@@ -12,7 +12,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
-	height: 99vh;
+	height: 100vh;
 	margin: -20px 0 50px;
 }
 
@@ -46,8 +46,8 @@ a {
 
 button {
 	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
+	border: 1px solid rgb(28, 70, 57);
+	background-color: rgb(28, 70, 57);
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -55,6 +55,7 @@ button {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: transform 80ms ease-in;
+    cursor: pointer;
 }
 
 button:active {
@@ -160,9 +161,9 @@ input {
 }
 
 .overlay {
-	background: #FF416C;
-	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: rgb(28, 70, 57);
+	background: -webkit-linear-gradient(to right, rgb(28, 70, 57), rgb(48, 119, 97));
+	background: linear-gradient(to right, rgb(28, 70, 57), rgb(48, 119, 97));
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
