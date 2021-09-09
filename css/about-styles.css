@@ -66,6 +66,7 @@
 .jumbotron {
     background: url("/img/about-images/fruit.jpg");
     background-repeat: no-repeat;
+    background-position: fill;
     height: 100vh;
 }
 
