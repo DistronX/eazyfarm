@@ -1,3 +1,3 @@
 ![Eazy farm logo](img/logo.png)
 
-Live Website: https://distronx.github.io/eazyfarm/
+Live Website: https://distronx.github.io/eazyfarm/about.html
