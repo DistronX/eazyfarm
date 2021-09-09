@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.info-bar {
+    background-color: rgb(28, 70, 57);
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.nav {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-fragment-left {
+    padding: 30px 0 30px 5%;
+}
+
+.nav-fragment-right {
+    padding: 30px 5% 30px 0;
+}
+
+.nav-fragment li,
+.nav-fragment a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(28, 70, 57);
+    font-size: 20px;
+    padding: 0 5px;
+    transition: 0.5s;
+}
+
+.nav-fragment a:hover {
+    color: darkgrey;
+}
+
+.logo img{
+    width: 130px;
+}
+
+.logo {
+    position: absolute;
+    left: calc(50vw - 65px);
+    border: 1px solid rgb(28, 70, 57);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: none;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.logo:hover {
+    box-shadow: 0 5px 20px 0 darkgrey;
+}
+
+.jumbotron {
+    background: url("/img/about-images/fruit.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.jumbotron-container {
+    padding-top: 45vh;
+    padding-left: 5%;
+}
+
+.jumbotron h2 {
+    font-size: 45px;
+    max-width: 24rem;
+    color: rgb(28, 70, 57);
+}
+
+.jumbotron p {
+    font-size: 20px;
+    max-width: 24rem;
+    margin: 20px 0;
+    color: rgb(28, 70, 57);
+}
+
+.cta-button {
+    background-color: rgb(28, 70, 57);
+    border: 3px solid rgb(28, 70, 57);
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+    padding: 15px 35px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cta-button:hover {
+    background-color: white;
+    color: rgb(28, 70, 57);
+}
+
+/* .container {
+    padding: 50px 5%;
+    height: 100vh;
+} */
+
+.book-display {
+    background-color: rgb(28, 70, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.book-display h4, 
+.book-display h2,
+.book-display span {
+    margin: 1rem 0;
+}
+
+.book-display h1 {
+    font-size: 5rem;
+    font-family: "Anton", Arial, Helvetica, sans-serif;
+    line-height: 5rem;
+}
+
+.book-mock-up {
+    box-shadow: -10px 10px 20px 0 #013026;
+    height: 75vh;
+}
+
+.simple-logo {
+    width: 100px;
+    padding: 0 0 5px 0;
+}
+
+.book-display-content {
+    max-width: 40%;
+    position: relative;
+    left: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
